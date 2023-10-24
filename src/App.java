@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("=================================================");
-        System.out.println("Olá,  iremos falar um pouco sobre ancestralidade");
+        System.out.println("Olá, iremos falar um pouco sobre ancestralidade");
         System.out.println("=================================================");
         System.out.println("A ancestralidade está em cada gesto, em cada ritual em cada modo de ser e de fazer. Vivemos pelo respeito à ancestralidade e ao cuidado para com o equilíbrio da natureza. ");
         System.out.println("=================================================");
