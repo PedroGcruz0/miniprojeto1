@@ -12,13 +12,13 @@ void exibirmensagem(int a,int b){
         
         this.Energia -= 2;
         System.out.println("=================================================");
-        System.out.println("Você seguiu um caminnho longo e tortuosoo, onde você encontrou uma nova ilha chamada de Zanzibar, essa ilha é representada por ter uma influência muito forte do meio Europeu, e apartir disso você se depara com outro problema... VOCÊ PERDEU" + this.Energia + "DE ENERGIA PELO CAMINHO");
+        System.out.println("Você seguiu um caminnho longo e tortuosoo, onde você encontrou uma nova ilha chamada de Zanzibar, essa ilha é representada por ter uma influência muito forte do meio Europeu, e apartir disso você se depara com outro problema... VOCÊ TEM " + this.Energia + "DE ENERGIA PELO CAMINHO");
         System.out.println("=================================================");
         }
     else{
         this.Energia -= 10;
         System.out.println("=================================================");
-        System.out.println("Infelizmente você não pode seguir para o próximo passo pois não venceu o obstáculo... VOCÊ PERDEU : "+this.Energia+" DE ENERGIA PELO CAMINHO");
+        System.out.println("Infelizmente você não pode seguir para o próximo passo pois não venceu o obstáculo... VOCÊ TEM: "+this.Energia+" DE ENERGIA PELO CAMINHO");
         System.out.println("=================================================");
        
          }
