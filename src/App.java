@@ -34,6 +34,7 @@ public class App {
                 System.out.println("=================================================");
                 System.out.println("Vocês conseguem derrotar o urso mas não conseguem vencer a doença...!");
                 System.out.println("=================================================");
+                
 
         }
 
@@ -51,27 +52,21 @@ public class App {
         
         
             if (orixa==1){
-                System.out.println("=================================================");
+            
                 System.out.println("Seu ancestral é Oxóssi, você recebeu um arco encatado chamado de Ofá e Mumbò recebeu o Xaxará de Omolu para curar qualquer doença, juntos vocês conseguem derrotar o urso e vencer a doença!");
-                System.out.println("=================================================");
-
+            
             }
              if (orixa==2){
-                System.out.println("=================================================");
                 System.out.println("Seu ancestral é Xangô, você recebeu um machado sagrado chamado de Ofá e Mumbò recebeu o Xaxará de Omolu para curar qualquer doença, juntos vocês conseguem derrotar o urso e vencer a doença!");
-                System.out.println("=================================================");
+                
 
             }
             if (orixa==3&&(orixaDemumbo==1||orixaDemumbo==2||orixaDemumbo==4)){
-                System.out.println("=================================================");
-                System.out.println("Seu ancestral é Omolu, você recebeu um instrumento sagrado chamado de Xaxará, capaz de curar todas as feridas e mumbo recebeu uma arma de ataque e juntos vocês são capazes de derrotar o urso e curar a doença!");
-                System.out.println("=================================================");
+                System.out.println("Seu ancestral é Omolu, você recebeu um instrumento sagrado chamado de Xaxará, capaz de curar todas as feridas e mumbo recebeu uma arma de ataque e juntos vocês são capazes de derrotar o urso e vencer a doença!");
 
             }
             if (orixa==4){
-                System.out.println("=================================================");
                 System.out.println("Seu ancestral é Ogum, você recebeu uma lança sagrada e Mumbò recebeu o Xaxará de Omolu para curar qualquer doença, juntos vocês conseguem derrotar o urso e vencer a doença!");
-                System.out.println("=================================================");
         
             }
         
@@ -80,11 +75,29 @@ public class App {
         }
         scanner.close();
         scanner2.close();
+      
         
-   
+
+    //Inicio dos Capítulos
+
+ Personagem2 Mumbo = new Personagem2();
+ Mumbo.Nome = "Mumbò";
+ Mumbo.Energia = 10;
+ Mumbo.exibirmensagem(orixa, orixaDemumbo);
+
+
+     
+
+     
+    
+
+    
     }
 
 }
+
+
+
 
 
 
